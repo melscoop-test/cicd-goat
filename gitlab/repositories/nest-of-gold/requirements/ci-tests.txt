@@ -12,7 +12,7 @@ charset-normalizer==2.0.12
 coverage==6.3.2
     # via coveralls
 coveralls==3.3.1
-    # via -r requirements/ci-tests.in
+    # via -r ci-tests.in
 distlib==0.3.4
     # via virtualenv
 docopt==0.6.2
@@ -33,7 +33,7 @@ py==1.11.0
     # via tox
 pyparsing==3.0.7
     # via packaging
-requests==2.27.1
+requests==2.31.0
     # via coveralls
 six==1.16.0
     # via
@@ -42,7 +42,7 @@ six==1.16.0
 toml==0.10.2
     # via tox
 tox==3.24.5
-    # via -r requirements/ci-tests.in
+    # via -r ci-tests.in
 urllib3==1.26.9
     # via requests
 virtualenv==20.14.0
