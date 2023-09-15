@@ -8,7 +8,7 @@
 bleach==4.1.0
     # via readme-renderer
 build==0.7.0
-    # via -r requirements/ci-release.in
+    # via -r ci-release.in
 certifi==2021.10.8
     # via requests
 cffi==1.15.0
@@ -43,13 +43,13 @@ pkginfo==1.8.2
     # via twine
 pycparser==2.21
     # via cffi
-pygments==2.11.2
+pygments==2.15.0
     # via readme-renderer
 pyparsing==3.0.7
     # via packaging
 readme-renderer==34.0
     # via
-    #   -r requirements/ci-release.in
+    #   -r ci-release.in
     #   twine
 requests==2.27.1
     # via
@@ -70,7 +70,7 @@ tomli==2.0.1
 tqdm==4.63.1
     # via twine
 twine==3.8.0
-    # via -r requirements/ci-release.in
+    # via -r ci-release.in
 urllib3==1.26.9
     # via
     #   requests
